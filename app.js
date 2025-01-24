@@ -32,13 +32,13 @@ app.post("/new", (req, res) => {
 
   console.log({
     text: req.body.message,
-    user: req.body.message,
+    user: req.body.user,
     added: new Date()
   })
 
   messages.push({
     text: req.body.message,
-    user: req.body.message,
+    user: req.body.user,
     added: new Date()
   })
 
